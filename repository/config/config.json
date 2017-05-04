@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/modelview/ModelviewWebPart.js",
+      "manifest": "./src/webparts/modelview/ModelviewWebPart.manifest.json",
+      "outputPath": "./dist/modelview.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "modelviewStrings": "webparts/modelview/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "2b7572d5-a081-4458-b950-bbbe17b498b6",
+  "alias": "ModelviewWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "2b7572d5-a081-4458-b950-bbbe17b498b6",
+    "group": { "default": "Under Development" },
+    "title": { "default": "modelview" },
+    "description": { "default": "This is about Model And View Application on Sharepoint Framework" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "modelview"
+    }
+  }]
+}

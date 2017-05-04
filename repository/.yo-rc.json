@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "modelview",
+    "framework": "none",
+    "version": "1.0.2",
+    "libraryId": "eba68e97-74a1-4afc-a947-3aac08cf85be"
+  }
+}
