@@ -1,0 +1,57 @@
+{
+  "id": "2b7572d5-a081-4458-b950-bbbe17b498b6",
+  "alias": "ModelviewWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "2b7572d5-a081-4458-b950-bbbe17b498b6",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "modelview"
+      },
+      "description": {
+        "default": "This is about Model And View Application on Sharepoint Framework"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "modelview"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "modelview.bundle",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "modelview.bundle": {
+        "type": "path",
+        "path": "dist/modelview.bundle.js"
+      },
+      "modelviewStrings": {
+        "defaultPath": "lib/webparts/modelview/loc/en-us.js",
+        "type": "localizedPath",
+        "paths": {}
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.0.0",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.0.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "version": "1.0.0",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+      }
+    }
+  }
+}

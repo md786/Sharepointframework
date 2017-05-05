@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "share-client-side-solution",
+    "id": "4614635a-9272-4645-9ffc-76a55cb115cc",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/share.sppkg"
+  }
+}

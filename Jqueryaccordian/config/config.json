@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/share/ShareWebPart.js",
+      "manifest": "./src/webparts/share/ShareWebPart.manifest.json",
+      "outputPath": "./dist/share.bundle.js"
+    }
+  ],
+  "externals": {
+
+      "jquery":"node_modules/jquery/dist/jquery.min.js",
+    "jqueryui":"node_modules/jqueryui/jquery-ui.min.js"
+  },
+  "localizedResources": {
+    "shareStrings": "webparts/share/loc/{locale}.js"
+
+  }
+}
